@@ -1,0 +1,8 @@
+name: hellow workflow
+on :[push]
+jobs:
+    say-hellow:
+      runs-on: ubuntu-lastest
+      steps:
+      name: print a message
+      run: echo "hellow github actions"
